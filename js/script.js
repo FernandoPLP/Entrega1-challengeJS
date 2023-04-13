@@ -1,5 +1,4 @@
 //Manipulando H1
-console.log("olá")
 const h1Element = document.getElementById("Titulo")
    
 h1Element.addEventListener("mouseover", function(){ 
@@ -9,3 +8,4 @@ h1Element.addEventListener("mouseover", function(){
 h1Element.addEventListener("mouseleave", function(){ 
     h1Element.style.backgroundColor = "#fff" 
 })
+
