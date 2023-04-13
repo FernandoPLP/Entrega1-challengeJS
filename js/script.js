@@ -1,3 +1,4 @@
+
 //Validação de usuário
 
 let usuario = "admin"
@@ -12,3 +13,15 @@ else{
     console.log("Falha na autenticação! ")
     window.stop()
 }
+
+//Manipulando H1
+const h1Element = document.getElementById("Titulo")
+   
+h1Element.addEventListener("mouseover", function(){ 
+    h1Element.style.backgroundColor = "#ff0000" 
+}) 
+    
+h1Element.addEventListener("mouseleave", function(){ 
+    h1Element.style.backgroundColor = "#fff" 
+})
+
