@@ -10,4 +10,5 @@ if(usuario ==usu && senha==sen){
 
 else{
     console.log("Falha na autenticação! ")
+    window.stop()
 }
