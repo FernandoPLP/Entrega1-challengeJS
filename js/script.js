@@ -1,5 +1,10 @@
+//teste no console
+
+document.getElementById("p1")
+console.log(p1)
 const problema1 = document.getElementById("p1")
 
+// modificando o conteudo da pagina
 problema1.addEventListener("mouseenter", ()=>{
     problema1.textContent = "A falta de segurança durante o período noturno é uma preocupação comum em muitas cidades, especialmente quando se trata de sinalização inadequada e pouca iluminação. A falta de sincronização dos semáforos é um dos principais problemas que afeta o tráfego noturno, o que pode levar a congestionamentos desnecessários e aumentar o risco de acidentes. Além disso, a dificuldade para atravessar as ruas com segurança, especialmente em áreas com pouca iluminação, pode aumentar a vulnerabilidade dos pedestres a roubos e assaltos."
     problema1.style.backgroundColor = "#76d5f5"
@@ -76,3 +81,5 @@ h1Element.addEventListener("mouseover", function(){
 h1Element.addEventListener("mouseleave", function(){ 
     h1Element.style.backgroundColor = "#fff" 
 })
+
+
